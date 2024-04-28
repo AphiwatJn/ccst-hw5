@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-image: url(https://picsum.photos/1980/1080); */
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+.container{
+    display: flex;
+    height: 100vh;
+    /* background-color: bisque; */
+    flex-direction: column;
+    color: white;
+}
+header,header a{
+    /* background-color: aquamarine; */
+    color: white;
+    display: flex;
+    text-decoration: none;
+    height: 5%;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+}
+.content h1{
+    font-size: 60px;
+    padding: 5px;
+}
+.content i{
+    padding: 5px;
+    margin: 10px 10px;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.content p{
+    margin: 10px 0px;
+}
+.process-bar{
+    width: 350px;
+    color:#000!important;background-color:#f1f1f1!important
+}
+.process-green{
+    color:#fff!important;background-color:#4CAF50!important
+}
+.precent {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+}
+.button {
+    background-color: lightblue;
+    border: none;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0px;
+    
+  }
+.social{
+    display: flex;
+}
+.social p{
+    padding: 10px 10px;
+}
+footer{
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px 0px;
+    height: 5%;
+}
+footer hr{
+    margin: 0px 50px;
+    padding: 0px 0px;
+}
+footer p{
+    margin-top: 5px;
+}
